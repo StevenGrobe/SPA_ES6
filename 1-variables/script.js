@@ -25,7 +25,7 @@ vegetables.pop()
 console.log(fruits, vegetables)
 
 //----------------------//
-//1.2 Objets
+//1.3 Objets
 
 let settings = {
     sound: true,
