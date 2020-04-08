@@ -1,19 +1,19 @@
 //2.1 Fonctions simples
 const sayHello = function() {
     console.log('Hello')
-}
+};
 
 const sayMyName = function(first, last) {
     console.log(first, last)
-}
+};
 
 const sayMyAge = function(age) {
     console.log('You are ' + age + ' years old')
-}
+};
 
-sayHello()
-sayMyName('Odile', 'Crok')
-sayMyAge(23)
+sayHello();
+sayMyName('Odile', 'Crok');
+sayMyAge(23);
 
 //----------------------//
 //2.2 this
@@ -25,9 +25,9 @@ const object = {
     showThis: function() {
         console.log(this)
     }
-}
+};
 
-object.showThis()
+object.showThis();
 
 //----------------------//
 //2.3 Application
@@ -41,7 +41,7 @@ const odile = {
     //sayHello: ...
     //sayMyName:...
     //sayMyAge:...
-}
+};
 
 //odile.sayHello()
 //odile.sayMyName()

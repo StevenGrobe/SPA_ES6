@@ -10,8 +10,8 @@ const bus = {
         place: '47'
     },
     equipments: ['sae', 'tft', 'speech']
-}
+};
 
 //3.2 Object.values
 
-console.log(data)
+console.log(data);

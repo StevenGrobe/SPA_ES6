@@ -1,22 +1,39 @@
 # Syntaxes ES6 et ES6+
 
+En préambule, prenez un moment pour lire ce résumé de l'évolution du langage Javascript au cours des dernières décennies : https://javascript.developpez.com/actu/267495/L-historique-de-JavaScript-Brendan-Eich-l-a-ecrit-en-seulement-10-jours-et-c-est-ainsi-qu-il-a-change-le-monde-pour-toujours/
+
+
+Ces exercices ont pour but de vous familiariser avec les principales nouveautés introduites par la version ES6 (ou ES2015) du langage.
+
+Pour les réaliser, vous pourrez vous appuyer sur le site Mozilla Developer Network (MDN) qui documente et illustre les notions abordées ci-dessous.
+
+* Let : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/let
+* Const : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/const
+* Arrow functions : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Fonctions/Fonctions_fl%C3%A9ch%C3%A9es
+* Object.keys : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Object/keys
+* Object.values : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Object/values
+* Destructuring : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Syntaxe_d%C3%A9composition
+* Import : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/import  
+
+Pour chaque exercice, placez-vous dans le dossier indiqué et ouvrez le fichier index.html avec Firefox ou Chrome, au choix.
+  
 ## Variables `let` et `const`
 ➡️ Exercice à réaliser dans le dossier `1-variables`
 
 ### Section 1
 1. Remplacez toutes les occurences de `var` par `let`.
-2. Constatez que cela ne change rien. Désormais **on n'utilisera plus `var`** mais `let` ou `const`
+2. Constatez que le code s'exécute toujours sans erreur. Expliquez pourquoi.
 3. Remplacez toutes les occurences de `let` par `const`.
-4. Expliquez l'erreur
-5. Corrigez le code en conservant le maximum de valeurs constantes
+4. Expliquez l'erreur.
+5. Corrigez le code en conservant le maximum de valeurs constantes.
 
 ### Section 2
 1. Remplacez toutes les occurences de `let` par `const`.
-2. Expliquez **l'absence** l'erreur
+2. Expliquez l'absence d'erreur.
 
 ### Section 3
 1. Remplacez toutes les occurences de `let` par `const`.
-2. Expliquez l'erreur
+2. Expliquez l'erreur.
 3. Corrigez le code en conservant le maximum de valeurs constantes
 
 **COMMITTEZ VOS CHANGEMENTS 🚢**
@@ -25,11 +42,11 @@
 ➡️ Exercice à réaliser dans le dossier `2-functions`
 
 ### Section 1
-Convertissez les 3 fonctions avec la notation "Arrow function" et vérifiez que le code fonctionne comme avant la conversion
+Convertissez les 3 fonctions avec la notation "Arrow function" et vérifiez que le code fonctionne comme avant la conversion.
 
 ### Section 2
-1. **Avant toute modification : a ssurez-vous de comprendre le code déjà écrit ! Au besoin commentez-le.**
-2. Convertissez la fonction `showThis` en notation "Arrow function"
+1. **Avant toute modification : assurez-vous de comprendre le code déjà écrit ! Au besoin commentez-le.**
+2. Convertissez la fonction `showThis` en notation "Arrow function".
 3. Observez le résultat. Que pouvez-vous en conclure ?
 
 ### Section 3
@@ -41,10 +58,10 @@ Complétez le code pour reproduire le comportement de la section 1 mais cette fo
 ➡️ Exercice à réaliser dans le dossier `3-objects`
 
 ### Section 1
-Afficher les carractéristiques du véhicule sours la forme `clé : valeur` (Ex: `id: 3221`)
+Afficher les caractéristiques du véhicule sours la forme `clé : valeur` (Ex: `id: 3221`).
 
 ### Section 2
-Pour chacunes des perturbations du fichier `data.js` (variable `data`) afficher leur texte.
+Le fichier `data.js` comporte un tableau des perturbations du réseau de transport Grenoblois. Pour chacune des perturbations, afficher le champ texte.
 
 **COMMITTEZ VOS CHANGEMENTS 🚢**
 
@@ -52,24 +69,24 @@ Pour chacunes des perturbations du fichier `data.js` (variable `data`) afficher 
 ➡️ Exercice à réaliser dans le dossier `4-destructuring`
 
 ### Section 1
-1. **COMPRENEZ** et **COMMENTEZ** le code de la première partie
-2. Afficher le 3e élément du tableau ainsi que la propriété `age` de l'objet
+1. Prenez le temps de bien comprendre le code de la première partie, en le commentant.
+2. Afficher le 3e élément du tableau ainsi que la propriété `age` de l'objet.
 
 ### Section 2
-Pour chacunes des perturbations du fichier `data.js` (variable `data`) récupérer dans des variables puis afficher leur texte, date de début et date de fin.
+Le fichier `data.js` comporte un tableau des perturbations du réseau de transport Grenoblois. Pour chacune des perturbations, récupérez leur texte, date de début et date de fin dans des variables puis affichez-les.
 
 **COMMITTEZ VOS CHANGEMENTS 🚢**
 
 ## Import / Export
 ➡️ Exercice à réaliser dans le dossier `5-import`
-__⚠ Cet exercice est à exécuter soit sous Firefox soit sous Chrome avec un serveur de développement (WebStorm ou VS Code en proposent)__
+__⚠ Cet exercice est à exécuter soit sous Firefox soit sous Chrome avec un serveur de développement (via WebStorm, ou WAMP, http-server...)__
 
 ### Section 1
-1. Lire et comprendre le code déjà écrit dans la première partie
-2. Importer et utiliser la fonction `showError`
-2. Importer et utiliser la fonction anonyme définie à la fin du fichier
+1. Lire et comprendre le code déjà écrit dans la première partie.
+2. Importer et utiliser la fonction `showError`.
+2. Importer et utiliser la fonction anonyme définie à la fin du fichier.
 
 ### Section 2
-Exporter les fonctions du fichier `math.js` pour pouvoir les utiliser dans le script principal (`script.js`)
+Exporter les fonctions du fichier `math.js` pour pouvoir les utiliser dans le script principal (`script.js`).
 
 **COMMITTEZ VOS CHANGEMENTS 🚢**

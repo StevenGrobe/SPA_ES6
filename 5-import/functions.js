@@ -1,5 +1,5 @@
-export const hello = () => console.log('hello')
-export const showError = message => console.error(message)
+export const hello = () => console.log('hello');
+export const showError = message => console.error(message);
 
 
 
@@ -36,13 +36,13 @@ var __nyan = [[
 "+        +         +      +     o  ",
 "    +           o                  ",
 "+      o     o        o      +     "
-]]
+]];
 
 function nyan(){
     console.clear();
-    console.log(__nyan[_nyan].join("\n"))
-    if(_nyan == 0){ _nyan = 1; } else { _nyan = 0; }
-}
+    console.log(__nyan[_nyan].join("\n"));
+    if(_nyan === 0){ _nyan = 1; } else { _nyan = 0; }
+};
 
-window.setInterval(nyan, 300)
+window.setInterval(nyan, 300);
 }
