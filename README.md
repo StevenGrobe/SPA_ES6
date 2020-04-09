@@ -13,7 +13,8 @@ Pour les réaliser, vous pourrez vous appuyer sur le site Mozilla Developer Netw
 * Object.keys : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Object/keys
 * Object.values : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Object/values
 * Destructuring : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Syntaxe_d%C3%A9composition
-* Import : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/import  
+* Import / Export - Modules JS : https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Modules
+* Promises : https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Utiliser_les_promesses
 
 Pour chaque exercice, placez-vous dans le dossier indiqué et ouvrez le fichier index.html avec Firefox ou Chrome, au choix.
   
@@ -81,6 +82,8 @@ Le fichier `data.js` comporte un tableau des perturbations du réseau de transpo
 ➡️ Exercice à réaliser dans le dossier `5-import`
 __⚠ Cet exercice est à exécuter soit sous Firefox soit sous Chrome avec un serveur de développement (via WebStorm, ou WAMP, http-server...)__
 
+**Rappel** - Avant de réaliser cet exercice, prenez connaissance du guide MDN sur le sujet : https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Modules
+
 ### Section 1
 1. Lire et comprendre le code déjà écrit dans la première partie.
 2. Importer et utiliser la fonction `showError`.
@@ -90,3 +93,15 @@ __⚠ Cet exercice est à exécuter soit sous Firefox soit sous Chrome avec un s
 Exporter les fonctions du fichier `math.js` pour pouvoir les utiliser dans le script principal (`script.js`).
 
 **COMMITTEZ VOS CHANGEMENTS 🚢**
+
+## Promises
+➡️ Exercice à réaliser dans le dossier `6-promises`
+
+**Rappel** - Avant de réaliser cet exercice, prenez connaissance du guide MDN sur le sujet : https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Utiliser_les_promesses
+
+1. Observer et expliquer l'ordre des messages affichés dans la console.
+2. Utiliser les `promises` afin que les messages s'enchaînent dans le bon ordre (1, 2, 3).
+3. Remplacer l'appel à la fonction second() par secondWithError() afin de simuler une erreur lors de l'exécution.
+4. Modifier le code afin de ne pas briser la chaîne des appels malgré tout.
+5. Modifier le code afin d'afficher le message d'erreur entre les messages 1 et 3.
+   
