@@ -10,6 +10,10 @@
 4. Expliquez l'erreur
 5. Corrigez le code en conservant le maximum de valeurs constantes
 
+111 testttsfs
+sdljsdlfj
+
+
 ### Section 2
 1. Remplacez toutes les occurences de `let` par `const`.
 2. Expliquez **l'absence** l'erreur
