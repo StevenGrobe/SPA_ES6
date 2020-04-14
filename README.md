@@ -28,9 +28,6 @@ Pour chaque exercice, placez-vous dans le dossier indiqué et ouvrez le fichier 
 4. Expliquez l'erreur.
 5. Corrigez le code en conservant le maximum de valeurs constantes.
 
-111 testttsfs
-sdljsdlfj
-
 
 ### Section 2
 1. Remplacez toutes les occurences de `let` par `const`.
