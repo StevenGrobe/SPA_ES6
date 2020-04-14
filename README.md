@@ -80,6 +80,10 @@ Le fichier `data.js` comporte un tableau des perturbations du réseau de transpo
 ### Section 2
 Le fichier `data.js` comporte un tableau des perturbations du réseau de transport Grenoblois. Pour chacune des perturbations, récupérez leur texte, date de début et date de fin dans des variables puis affichez-les.
 
+Après ce premier exercice, prenez connaissance du guide MDN sur le destructuring : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Affecter_par_d%C3%A9composition
+
+Vérifiez que le code réalisé dans cet exercice est bien optimal compte-tenu des exemples fournis par MDN. Optimisez-le si nécessaire.
+
 **COMMITTEZ VOS CHANGEMENTS 🚢**
 
 ## Import / Export
