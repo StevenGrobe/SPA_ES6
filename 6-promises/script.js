@@ -1,7 +1,10 @@
+// Fonction utilisées par les fonctions de l'exercice - Ne pas modifier ou appeler directement
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+// Note : les fonctions ci-dessous sont prêtes à l'emploi, vous n'avez pas à les modifier, juste à les appeler.
+// Elles retournent toutes des promesses et peuvent donc être chaînées via la fonction "then".
 function first() {
   return sleep(300).then(() => {console.log('message 1');});
 }
