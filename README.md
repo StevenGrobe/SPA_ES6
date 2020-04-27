@@ -4,6 +4,7 @@ En préambule, prenez un moment pour lire ce résumé de l'évolution du langage
 
 Ces exercices ont pour but de vous familiariser avec les principales nouveautés introduites par la version ES6 (ou ES2015) du langage.
 
+## Ressources
 Pour les réaliser, vous pourrez vous appuyer sur le site Mozilla Developer Network (MDN) qui documente et illustre les notions abordées ci-dessous.
 
 * Let : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/let
@@ -15,23 +16,26 @@ Pour les réaliser, vous pourrez vous appuyer sur le site Mozilla Developer Netw
 * Import / Export - Modules JS : https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Modules
 * Promises : https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Utiliser_les_promesses
 
-Pour chaque exercice, placez-vous dans le dossier indiqué et ouvrez le fichier index.html avec Firefox ou Chrome, au choix.
+- [Les syntaxes ES6 expliquées - javascripttutorial](https://www.javascripttutorial.net/es6)
+- [Toutes les nouvelles syntaxes JavaScript, ES.Next - javascripttutorial](https://www.javascripttutorial.net/es-next/)
+
+Pour chaque exercice, placez-vous dans le dossier indiqué et ouvrez le fichier index.html avec Google Chrome.
   
 ## 1 — Variables `let` et `const`
 ➡️ Exercice à réaliser dans le dossier `1-variables`
 
-### Exercice 1
+### Ex 1.1
 1. Remplacez toutes les occurences de `var` par `let`.
 2. Constatez que le code s'exécute toujours sans erreur. Expliquez pourquoi.
 3. Remplacez toutes les occurences de `let` par `const`.
 4. Expliquez l'erreur.
 5. Corrigez le code en conservant le maximum de valeurs constantes.
 
-### Exercice 2
+### Ex 1.2
 1. Remplacez toutes les occurences de `let` par `const`.
 2. Expliquez l'absence d'erreur.
 
-### Exercice 3
+### Ex 1.3
 1. Remplacez toutes les occurences de `let` par `const`.
 2. Expliquez l'erreur.
 3. Corrigez le code en conservant le maximum de valeurs constantes
@@ -39,34 +43,34 @@ Pour chaque exercice, placez-vous dans le dossier indiqué et ouvrez le fichier 
 ## 2 — Arrow functions
 ➡️ Exercice à réaliser dans le dossier `2-functions`
 
-### Exercice 1
+### Ex 2.1
 Convertissez les 3 fonctions avec la notation "Arrow function" et vérifiez que le code fonctionne comme avant la conversion.
 
-### Exercice 2
+### Ex 2.2
 1. **Avant toute modification : assurez-vous de comprendre le code déjà écrit ! Au besoin commentez-le.**
 2. Convertissez la fonction `showThis` en notation "Arrow function".
 3. Observez le résultat. Que pouvez-vous en conclure ?
 
-### Exercice 3
+### Ex 2.3
 Complétez le code pour reproduire le comportement de la section 1 mais cette fois-ci grâce à l'objet `odile`. Vous utiliserez dès que possible des "Arrow functions".
 
 ## 3 — `Object.keys` & `Object.values`
 ➡️ Exercice à réaliser dans le dossier `3-objects`
 
-### Exercice 1
+### Ex 3.1
 Afficher les caractéristiques du véhicule sours la forme `clé : valeur` (Ex: `id: 3221`).
 
-### Exercice 2
+### Ex 3.2
 Le fichier `data.js` comporte un tableau des perturbations du réseau de transport Grenoblois. Pour chacune des perturbations, afficher le champ texte.
 
 ## 4 — Destructuring
 ➡️ Exercice à réaliser dans le dossier `4-destructuring`
 
-### Exercice 1
+### Ex 4.1
 1. Prenez le temps de bien comprendre le code de la première partie, en le commentant.
 2. Afficher le 3e élément du tableau ainsi que la propriété `age` de l'objet.
 
-### Exercice 2
+### Ex 4.2
 Le fichier `data.js` comporte un tableau des perturbations du réseau de transport Grenoblois. Pour chacune des perturbations, récupérez leur texte, date de début et date de fin dans des variables puis affichez-les.
 
 Après ce premier exercice, prenez connaissance du guide MDN sur le destructuring : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Affecter_par_d%C3%A9composition
@@ -79,12 +83,12 @@ __⚠ Cet exercice est à exécuter soit sous Firefox soit sous Chrome avec un s
 
 **Rappel** - Avant de réaliser cet exercice, prenez connaissance du guide MDN sur le sujet : https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Modules
 
-### Exercice 1
+### Ex 5.1
 1. Lire et comprendre le code déjà écrit dans la première partie.
 2. Importer et utiliser la fonction `showError`.
 2. Importer et utiliser la fonction anonyme définie à la fin du fichier.
 
-### Exercice 2
+### Ex 5.2
 Exporter les fonctions du fichier `math.js` pour pouvoir les utiliser dans le script principal (`script.js`).
 
 ## 6 — Promises
