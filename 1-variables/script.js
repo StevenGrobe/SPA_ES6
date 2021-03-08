@@ -46,10 +46,11 @@ let savedGame = {
 
 console.log(settings, savedGame);
 
-savedGame = {};
-settings.music = true;
-settings.resolution = [3840, 2160];
+savedGame = {}; // on peut modifier et assigner notre objet car let
+
+settings.music = true; // pour une const objet, 
+settings.resolution = [3840, 2160]; // les proprietes de l'objet pourront toujours etre modifier
 
 console.log(settings, savedGame);
 
-//On a voulu changé la variable savedGame alors que c'est une const
+

@@ -6,7 +6,7 @@ hello();
 import {showError} from "./functions.js"; // import la function hello du fichier functions.js
 showError('test');
 
-import {default as nyan} from './functions.js';
+import nyan from './functions.js';
 // nyan();
 
 // 5-2 Export

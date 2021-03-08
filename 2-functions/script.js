@@ -31,7 +31,7 @@ const object = {
 
 object.showThis();
 
-// En changeant en fonction arrow, l'objet object ne s'affiche plus, mais on observe un objet Windows
+// En changeant en fonction arrow, l'objet object ne s'affiche plus, mais on observe un objet Window
 // Les fonctions fléchées sont souvent anonymes et ne sont pas destinées à être utilisées pour déclarer des méthodes. (ref MDN)
 
 //----------------------//
@@ -46,7 +46,7 @@ const odile = {
     sayHello: () => {
         console.log('Hello');
     },
-    sayMyName: function () {
+    sayMyName() {
         console.log(this.name.first, this.name.last);
     },
     sayMyAge: function () {
